@@ -1227,11 +1227,9 @@ config TOUCHSCREEN_ST
 
 	  If unsure, say N.
 
-
 source "drivers/input/touchscreen/st/Kconfig"
 
 source "drivers/input/touchscreen/focaltech_touch/Kconfig"
 source "drivers/input/touchscreen/nt36xxx/Kconfig"
 source "drivers/input/touchscreen/gt1x/Kconfig"
-source "drivers/input/touchscreen/focaltech_touch_8719/Kconfig"
 endif
